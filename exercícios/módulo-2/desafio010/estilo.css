@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+}
+
+body{
+    background-color: #c5ebd6;
+}
+
+#cabeca{
+    color: white;
+    font-weight: lighter;
+    font: normal lighter 2em 'Worksans';
+    text-align: center;
+}
+
+nav{
+    padding: 10px;
+}
+
+#p1{
+    text-align: center;
+    color: white;
+}
+
+.link1{
+    color: white;
+    text-decoration: none;
+    margin: 7px;
+    margin-bottom: 10px;
+    border-bottom: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#divp{
+    background-color: white;
+    margin: 0px 10px 0px 10px;
+}
+
+.titulo{
+    font-family: android;
+    margin-top: 0;
+    color: #387353;
+
+}
+
+.titulo2{
+    font-family: android;
+    margin-top: 0;
+    color: #387353;
+    background-image: linear-gradient(to right, #C5ECD6, white);
+
+}
+
+img{
+    text-align: center;
+}
+
+#divvid{
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+#div1{
+    background-image: linear-gradient(to bottom,#38CA79, #1A5C38);
+    margin: 0px 10px 0px 10px;
+    border-bottom: 5px;
+}
+
+#p2{
+    background-color: #2FA866;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#div3{
+    background-color: #84E1AD;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0px 10px 10px 10px;
+}
+
+p{
+    margin: 10px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(3, 56, 3);
+}
